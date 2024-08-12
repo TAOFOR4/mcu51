@@ -10,10 +10,11 @@
       <TargetName>Target 1</TargetName>
       <ToolsetNumber>0x0</ToolsetNumber>
       <ToolsetName>MCS-51</ToolsetName>
+      <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>AT89C52</Device>
-          <Vendor>Atmel</Vendor>
+          <Vendor>Microchip</Vendor>
           <Cpu>IRAM(0-0xFF) IROM(0-0x1FFF) CLOCK(24000000)</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile>"LIB\STARTUP.A51" ("Standard 8051 Startup Code")</StartupFile>
@@ -379,14 +380,24 @@
               <FilePath>.\Delay.h</FilePath>
             </File>
             <File>
-              <FileName>LCD1602.c</FileName>
+              <FileName>Key.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\LCD1602.c</FilePath>
+              <FilePath>.\Key.c</FilePath>
             </File>
             <File>
-              <FileName>LCD1602.h</FileName>
+              <FileName>Key.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\LCD1602.h</FilePath>
+              <FilePath>.\Key.h</FilePath>
+            </File>
+            <File>
+              <FileName>Nixie.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Nixie.c</FilePath>
+            </File>
+            <File>
+              <FileName>Nixie.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Nixie.h</FilePath>
             </File>
             <File>
               <FileName>Timer0.c</FileName>
